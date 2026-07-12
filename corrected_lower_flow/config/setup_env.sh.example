@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+export TESSENT_CELL_LIBRARY=/absolute/path/to/technology.tcelllib
+export DC_TARGET_LIBRARY=/absolute/path/to/standard_cell.db
+export DC_LINK_LIBRARY=/absolute/path/to/standard_cell.db
+
+# Optional. Separate multiple directories with a colon.
+export DC_SEARCH_PATH=/absolute/path/to/dc/library/directory
